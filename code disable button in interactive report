@@ -1,0 +1,7 @@
+CASE WHEN :G_EMP_ID NOT IN (2372) THEN 
+     
+       '<input STYLE="background: transparent;border: none;color: blue;;" LINK="COLUM"  onclick="popup('||R.ID||');" value=" '||R.EMPLOYEE_NAME||'">' 
+   ELSE
+   '<input STYLE="background: transparent;border: none;" LINK="COLUM" disabled  VALUE=" '||R.EMPLOYEE_NAME||'">'
+
+    END as Updat,
